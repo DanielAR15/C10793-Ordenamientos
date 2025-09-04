@@ -48,9 +48,9 @@ if __name__ == "__main__":
     vectores = generar_vectores()
 
     algoritmos = {
-        "Bubble Sort": Burbuja,
-        "Insertion Sort": Insercion,
-        "Selection Sort": Seleccion,
+        "Burbuja": Burbuja,
+        "Insercion": Insercion,
+        "Seleccion": Seleccion,
     }
 
     resultados = {alg: [] for alg in algoritmos}
